@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <parameter name="UserName" value="SaravanaPerumal"></parameter>
+    <parameter name="PassWord" value="Saravana@31"></parameter>
+    <parameter name="Firstname" value="Saravana"></parameter>
+    <parameter name="Lastname" value="Perumal"></parameter>
+    <parameter name="Address" value="11,ABSHITH STREET,Pondicherry"></parameter>
+    <parameter name="Ccnum" value="1236457849098370"></parameter>
+    <parameter name="Cvv" value="370"></parameter>
+    <parameter name="sheetname" value="Adaction"></parameter>
+    <parameter name="cellnum" value="0"></parameter>
+    <classes>
+      <class name="org.paramaters.SampleTask"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
